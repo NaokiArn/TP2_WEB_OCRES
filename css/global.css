@@ -22,6 +22,55 @@ a {
     padding: 25px 0;
 }
 
+@media screen and (min-width: 450px) {
+    body {
+        font-size: 0.75em;
+    }
+    .search {
+        display: none;
+    }
+    .share {
+        display: none;
+    }
+  }
+
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 1em;
+    }
+    .search {
+        display: none;
+    }
+    .share {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .share {
+        display: inline-block;
+    }
+    .search {
+        display: inline-block;
+    }
+  }
+
+@media screen and (min-width: 1400px) {
+    body {
+        font-size: 1.25em;
+    }
+    .search {
+        display: inline-block;
+    }
+    .share {
+        display: inline-block;
+    }
+}
+
+
+
+
 body > header {
     margin-bottom: 20px;
     background: white;
